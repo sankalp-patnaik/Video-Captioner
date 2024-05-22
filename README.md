@@ -4,6 +4,10 @@ Welcome to the Video Captioner Web App! This web application allows users to add
 
 ## Setup Instructions
 
+## Demo
+
+You can access the deployed version of the app [here](https://sankalp-patnaik.github.io/Video-Captioner/).
+
 ### Installation
 
 1. Clone the repository to your local machine:
