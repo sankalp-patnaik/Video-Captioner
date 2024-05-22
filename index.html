@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Captioner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Captioner</h1>
+        <div class="form-group">
+            <label for="videoUrl">Video URL:</label>
+            <input type="text" id="videoUrl" class="form-control" placeholder="Enter video URL">
+        </div>
+        <div class="form-group">
+            <label for="captionText">Caption Text:</label>
+            <input type="text" id="captionText" class="form-control" placeholder="Enter caption text">
+        </div>
+        <div class="form-group">
+            <label for="timestamp">Timestamp (HH:MM:SS):</label>
+            <input type="text" id="timestamp" class="form-control" placeholder="Enter timestamp">
+        </div>
+        <button id="addCaptionBtn" class="btn">Add Caption</button>
+        <div class="video-container">
+            <video id="video" controls preload="auto" width="640" height="360">
+                <source src="" type="video/mp4">
+            </video>
+            <div id="video-caption"></div>
+        </div>
+        <div class="button-group">
+            <button id="playBtn" class="btn">Play</button>
+            <button id="pauseBtn" class="btn">Pause</button>
+        </div>
+        <div id="captionsList"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
